@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width,user-scalable=no" name="viewport" />
+		<title>css3 filter</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+		<input type="file"accept="image/png,image/jpg" name="imgOne" id="imgOne" onchange="preImg(this.id,'imgPre');" />
+		<img id="imgPre" src="img/pic1.jpg" width="300px" height="300px" style="display: block;"/>
+
+		<div style="display: table; text-align: center; width: 100%; height: 100%;">
+			<div style="display: table-cell; vertical-align: middle;">
+				<div id="gallery">
+					<img src="img/pic1.jpg" class=" " alt="original" title="original " />
+					<img src="img/pic1.jpg" class="sepia " alt="Speia" title="Speia" />
+					<img src="img/pic1.jpg" class="grayscale " alt="grayscale " title="grayscale " />
+					<img src="img/pic1.jpg" class="blur " alt="blur" title="blur" />
+					<img src="img/pic1.jpg" class="invert " alt="invert " title="invert " />
+					<img src="img/pic1.jpg" class="saturate " alt="saturate" title="saturate" />
+					<img src="img/pic1.jpg" class="contrast " alt="contrast " title="contrast " />
+					<img src="img/pic1.jpg" class="brightness " alt="brightness" title="brightness" />
+					<img src="img/pic1.jpg" class="hue-rotate " alt="hue-rotate " title="hue-rotate" />
+					<img src="img/pic1.jpg" class="drop-shadow " alt="drop-shado" title="drop-shado" />
+				</div>
+			</div>
+		</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+
+</html>
